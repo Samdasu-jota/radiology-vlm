@@ -1,0 +1,16 @@
+# Data and models (too large for GitHub)
+data/
+model/
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# IDE / OS
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
