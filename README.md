@@ -4,6 +4,12 @@ Fine-tuned [CLIP](https://openai.com/research/clip) for medical image retrieval 
 
 ![Retrieval Comparison](assets/retrieval_comparison.png)
 
+### Demo
+
+[![Demo Video](https://img.youtube.com/vi/eXZ1jHO4d8o/maxresdefault.jpg)](https://youtu.be/eXZ1jHO4d8o)
+
+▶️ [Watch the full demo on YouTube](https://youtu.be/eXZ1jHO4d8o)
+
 ## The Problem
 
 Standard CLIP — and even fine-tuned CLIP — cannot distinguish present from absent findings in radiology reports. Searching for "pleural effusion" returns X-rays whose reports say *"no pleural effusion"* because the embeddings are dominated by the medical concept, not the negation.
